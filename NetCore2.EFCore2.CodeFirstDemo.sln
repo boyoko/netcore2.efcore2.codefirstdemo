@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore2.EFCore2.CodeFirstCreateDataBaseDemo", "NetCore2.EFCore2.CodeFirstCreateDataBaseDemo\NetCore2.EFCore2.CodeFirstCreateDataBaseDemo.csproj", "{911A2EBA-CD0A-46C7-9CEE-E5B760687BEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore2.EFCore2.Models", "NetCore2.EFCore2.Models\NetCore2.EFCore2.Models.csproj", "{FF886F6F-4290-4F48-B206-786BDDAB3419}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{911A2EBA-CD0A-46C7-9CEE-E5B760687BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{911A2EBA-CD0A-46C7-9CEE-E5B760687BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{911A2EBA-CD0A-46C7-9CEE-E5B760687BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF886F6F-4290-4F48-B206-786BDDAB3419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF886F6F-4290-4F48-B206-786BDDAB3419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF886F6F-4290-4F48-B206-786BDDAB3419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF886F6F-4290-4F48-B206-786BDDAB3419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
