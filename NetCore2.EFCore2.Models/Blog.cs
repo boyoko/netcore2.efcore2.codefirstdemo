@@ -8,5 +8,8 @@ namespace NetCore2.EFCore2.Models
     {
         public int BlogId { get; set; }
         public string Url { get; set; }
+
+        //add a field 
+        public DateTime CreateTime { get; set; } 
     }
 }

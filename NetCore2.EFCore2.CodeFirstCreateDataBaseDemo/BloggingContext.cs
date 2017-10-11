@@ -9,6 +9,7 @@ namespace NetCore2.EFCore2.CodeFirstCreateDataBaseDemo
     public class BloggingContext : DbContext
     {
         public DbSet<Blog> Blog { get; set; }
+        public DbSet<Post> Post { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

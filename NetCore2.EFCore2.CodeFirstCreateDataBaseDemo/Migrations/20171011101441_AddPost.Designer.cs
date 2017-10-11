@@ -11,9 +11,10 @@ using System;
 namespace NetCore2.EFCore2.CodeFirstCreateDataBaseDemo.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    partial class BloggingContextModelSnapshot : ModelSnapshot
+    [Migration("20171011101441_AddPost")]
+    partial class AddPost
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,8 +25,6 @@ namespace NetCore2.EFCore2.CodeFirstCreateDataBaseDemo.Migrations
                 {
                     b.Property<int>("BlogId")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime>("CreateTime");
 
                     b.Property<string>("Url");
 
